@@ -1,0 +1,10 @@
+[
+    {
+        "src": "https://tyuxx.github.io/tyuLIB/lib/ddcLIB/multiPage.js",
+        "module": false
+    },
+    {
+        "src": "./js/script.js",
+        "module": true
+    }
+]

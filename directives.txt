@@ -1,0 +1,28 @@
+All used libraries:
+https://tyuxx.github.io/tyuLIB/lib/ddcInjector/injector.js
+https://tyuxx.github.io/tyuLIB/lib/ddcGame/ddcUpgrade.js
+https://tyuxx.github.io/tyuLIB/lib/ddcGame/ddcCurrency.js
+https://tyuxx.github.io/tyuLIB/lib/ddcGame/gameSave.js
+https://tyuxx.github.io/tyuLIB/lib/ddcLIB/ddcELN.js
+https://tyuxx.github.io/tyuLIB/lib/ddcLIB/ddcRegistry.js
+https://tyuxx.github.io/tyuLIB/lib/ddcLIB/ddcSettings.js
+https://tyuxx.github.io/tyuLIB/lib/ddcLIB/multiPage.js
+https://tyuxx.github.io/tyuLIB/lib/ddcTranslate/translator.js
+
+Extra notes:
+The name of the game is "Bars Reborn".
+The game will be made in plain HTML, CSS, and JS.
+The game will have a modern UI.
+In scripts, DOM Content will already be loaded, sice they are injected.
+
+TODO Procedure: Do the part labeled First, while keeping in mind the Later part.
+
+Current TODO:
+
+First: 
+Make a title screen where you will have a selector to select a previous save (Saved by gameSave.js) and a new game button.
+The switch between the title screen and the game will be done by the multiPage.js library.
+
+Later:
+This is an incremental game where you have bars that load every 10 seconds and give you loads, which is the currency of the game.
+Then there will be upgrades that give you more bars and an upgrade that increases the loads you get.
