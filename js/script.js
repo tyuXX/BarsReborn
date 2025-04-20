@@ -4,8 +4,8 @@ import { Translator, Language } from "https://tyuxx.github.io/tyuLIB/lib/ddcTran
 // Updated Title Screen HTML with translation attributes.
 
 // Create pages using DDCMultiPage library
-DDCMultiPage.newPage("TitleScreen", "title", await fetch("./pages/title.html").then(response => response.text()));
-DDCMultiPage.newPage("GameScreen", "game", await fetch("./pages/gameScreen.html").then(response => response.text()));
+await DDCMultiPage.newPageFromURL("TitleScreen", "title", "./pages/title.html");
+await DDCMultiPage.newPageFromURL("GameScreen", "game", "./pages/gameScreen.html");
 
 // Function to populate saves from localStorage
 function populateSaveSelector() {
